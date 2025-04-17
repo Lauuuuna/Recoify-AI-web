@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlurMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #282828;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #535353;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1DB954;
+  }
+  
+  /* Material-UI overrides */
+  .MuiOutlinedInput-root {
+    color: white !important;
+    border-color: #535353 !important;
+  }
+  
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #535353 !important;
+  }
+  
+  .MuiInputLabel-root {
+    color: #b3b3b3 !important;
+  }
+  
+  .MuiPaper-root {
+    background-color: #181818 !important;
+    color: white !important;
+  }
+  
+  .MuiDivider-root {
+    background-color: #282828 !important;
+  }
